@@ -1,0 +1,162 @@
+
+body{
+    background-color: #fff9f9;
+  }
+
+.title{
+    margin: 90px auto 20px auto;
+}
+
+.general{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+  }
+
+.container {
+    padding: 32px;
+    margin: 20px auto 80px auto;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.autoselect {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+  
+.texts {
+   display: flex;
+   justify-content: center;
+}
+  
+h1 {
+    margin-left: 3px;
+}
+
+.containerButton{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerResult {
+    padding: 32px;
+    margin: 15px auto 10px auto;
+    background-color: #dcf5f2;
+    height: 84vh;
+    width: 89vw;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.result{
+    margin-top: 30px;
+}
+
+.textResult{
+    font-size: 28px;
+}
+
+.price{
+    background-color: #00a38c;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px auto 20px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media( max-width:690px){
+    .textResult{
+        font-size: 24px;
+    }
+    .containerResult{
+        height: 82vh;
+        width: 82VW;
+    }
+}
+
+@media( max-width:644px){
+    .textResult{
+        font-size: 20px;
+    }
+}
+
+@media( max-width:539px){
+    .textResult{
+        font-size: 18px;
+    }
+}
+
+@media( max-width:487px){
+    .textResult{
+        font-size: 15px;
+    }
+}
+
+@media( max-width:490px){
+    .container{
+        width: 320px;
+    }
+}
+
+@media( max-width:410px){
+    .container{
+        width: 250px;
+    }
+}
+
+@media( max-width:408px){
+    .textResult{
+        font-size: 12px;
+    }
+    .containerResult{
+        height: 77vh;
+        width: 77VW;
+    }
+    .price{
+        width: 200px;
+        height: 45px;
+        border-radius: 50px;
+    }
+    .textPrice{
+        padding: 4px;
+        font-size: 25px;
+    }
+}
+
+@media( max-width:351px){
+    .texts{
+        display: block;
+    }
+    .textResult{
+        font-size: 15px;
+    }
+}
+
+@media( max-width:299px){
+    .texts{
+        display: block;
+    }
+    .textResult{
+        font-size: 15px;
+    }
+}
